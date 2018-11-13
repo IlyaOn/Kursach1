@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Choose format to adapt</h1>
+<form action="/process_data/mid/" method=get>
+  <p><input type=submit name=mid value="mid">
+</form>
+<form action="/process_data/wav/" method=get>
+  <input type=submit name=wav value="wav">
+</form>
+{% endblock %}

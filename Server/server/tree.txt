@@ -1,0 +1,68 @@
+Структура папок
+Серийный номер тома: FA4E-D911
+C:\USERS\ILYA\DESKTOP\МОЙКУРСАЧ\БПИ175БАЛБИНИЛЬЯ\SERVER
+|   config.py
+|   favicon.ico
+|   run.py
+|   tree.txt
+|   
++---app
+|   |   routes.py
+|   |   train.py
+|   |   wavNN.py
+|   |   __init__.py
+|   |   
+|   +---encoders
+|   |   +---bach
+|   |   |       LabelBinarizer.sav
+|   |   |       LabelBinarizer.sav_01.npy
+|   |   |       model.h5
+|   |   |       ngram.sav
+|   |   |       
+|   |   +---jazz
+|   |   |       LabelBinarizer.sav
+|   |   |       LabelBinarizer.sav_01.npy
+|   |   |       model.h5
+|   |   |       ngram.sav
+|   |   |       
+|   |   \---mario
+|   |           LabelBinarizer.sav
+|   |           LabelBinarizer.sav_01.npy
+|   |           model.h5
+|   |           ngram.sav
+|   |           
+|   +---midiNN
+|   |   |   music_controller.py
+|   |   |   remix.py
+|   |   |   wild_card.py
+|   |   |   
+|   |   \---__pycache__
+|   |           music_controller.cpython-36.pyc
+|   |           remix.cpython-36.pyc
+|   |           wild_card.cpython-36.pyc
+|   |           
+|   +---templates
+|   |       base.html
+|   |       index.html
+|   |       mid.html
+|   |       waitpage.html
+|   |       wav.html
+|   |       
+|   \---__pycache__
+|           LSTM.cpython-36.pyc
+|           music_controller.cpython-36.pyc
+|           remix.cpython-36.pyc
+|           routes.cpython-36.pyc
+|           TF_ADAPT.cpython-36.pyc
+|           train.cpython-36.pyc
+|           wavNN.cpython-36.pyc
+|           wild_card.cpython-36.pyc
+|           __init__.cpython-36.pyc
+|           
++---uploads
+\---__pycache__
+        config.cpython-36.pyc
+        grammar.cpython-36.pyc
+        preprocess.cpython-36.pyc
+        run.cpython-36.pyc
+        
